@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Todo App</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="wrapper">
+    
+        <h1>Список дел</h1>
+        <table id="list" class="table">
+          <tr>
+            <th>Справа</th>
+            <th>Дата</th>
+            <th>Кількість днів</th>
+            <th></th>
+          </tr>
+        </table>
+         
+         <form id="todo">
+        <input type="text" placeholder="Введіть нову справу..." id="text">
+        <input type="date" placeholder="Введіть дату..." id="date">
+        <input type="submit" disabled="true" placeholder="Додати" id="submit">
+      </form>
+    </div>
+   
+
+
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
